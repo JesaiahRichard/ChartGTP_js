@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
     loader(messageDiv)
 
-    const response = await fetch('https://chartgptjs.onrender.com', {
+    const response = await fetch('https://codexjs.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
